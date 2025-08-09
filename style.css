@@ -1,0 +1,21 @@
+body {
+    &,
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #title {
+        text-align: center;
+        padding: 50px;
+        font-size: 100px;
+        margin-bottom: 100px;
+        color: yellow;
+        background-color: black;
+    }
+    #content {
+        font-size: 20px;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        max-width: 500px;
+    }
+}
