@@ -1,1 +1,0 @@
-# libertarian-taxcut.github.io
