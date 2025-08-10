@@ -8,19 +8,24 @@ body {
         text-align: center;
         padding: 50px;
         padding-bottom: 10px;
-        font-size: 100px;
         margin-bottom: 100px;
         color: yellow;
         background-color: black;
+        strong {
+            font-size: 100px;
+            margin-bottom: 0;
+        }
         #links {
+            height: max-content;
+            user-select: none;
             display: flexbox;
-            text-align: center;
+            text-align: end;
             a {
                 border-radius: 10px;
-                margin: 15px;
+                margin: 5px;
+                padding: 5px;
                 text-align: center;
                 font-size: 30px;
-                padding: 15px;
                 color: white;
                 text-decoration: none;
                 &:hover {
